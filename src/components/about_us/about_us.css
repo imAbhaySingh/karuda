@@ -66,6 +66,7 @@
 .sc:hover{
   color: red;
 }
+
 .name{
   display: flex;
   justify-content: space-between;
