@@ -38,7 +38,6 @@ flex-direction: column;
     width: 70vw;
 }
 .wfood,.cleaning,.Exercise,.Medication,.toys{
-
     border-radius: 15px;
     border: 2px solid black;
     padding: 1%;
@@ -52,7 +51,27 @@ flex-direction: column;
     border:2px solid black ;
 }
 
+.wfood:hover h4{
+    color: red;
+}
+.cleaning:hover h4{
+    color: red;
+}
+.Exercise:hover h4{
+    color: red;
+}
+.Medication:hover h4{
+    color: red;
+}
+.toys:hover h4{
+    color: red;
+}
 .fi{
     width: 18vw;
     height: 25vh;
+}
+.wl{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }

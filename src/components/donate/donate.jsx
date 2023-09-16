@@ -26,12 +26,14 @@ const donate = () => {
         <div className="food">
           <img src={Food} alt="picture" />
           <h2>Donate Food</h2>
+          <h4>Click on Me</h4>
         </div>
         </a>
         <a href="https://forms.gle/PkkAbshLZfPXhNjV9" target="blank">
         <div className="money">
           <img src={Money} alt="picture" />
           <h2>Donate Fund</h2>
+          <h4>Click on Me</h4>
         </div>
         </a>
       </div>

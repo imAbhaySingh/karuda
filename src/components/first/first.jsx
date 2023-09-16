@@ -39,14 +39,18 @@ const first = () => {
           <img className="category" src={Well} alt="" />
         </div>
        </a>
+        <a href="/healthc">
         <div className="dibba healthcare">
           <div className="tag">Healthcare</div>
           <img className="category" src={Health} alt="" />
         </div>
+        </a>
+        <a href="/abuse">
         <div className="dibba abuse">
           <div className="tag">Report Abuse</div>
           <img className="category" src={Abuse} alt="" />
         </div>
+        </a>
         <a href="/donate">
           <div className="dibba donate">
           <div className="tag">Donate </div>

@@ -6,6 +6,8 @@ import About from "./components/about_us/about_us"
 import Donate from "./components/donate/donate"
 import Well from "./components/well_being/well"
 import Contact from "./components/contact/contact"
+import Healthc from "./components/Healthc/Healthc"
+import Abuse from "./components/Abuse/abuse"
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Route path="/contact" element={<><Nav/><Contact/></>}></Route>
       <Route path="/donate" element={<><Nav/><Donate/></>}></Route>
       <Route path="/well" element={<><Nav/><Well/></>}></Route>
+      <Route path="/healthc" element={<><Nav/><Healthc/></>}></Route>
+      <Route path="/abuse" element={<><Nav/><Abuse/></>}></Route>
     </Routes>
     </BrowserRouter>
   );
