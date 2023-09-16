@@ -1,10 +1,10 @@
-.report-page{
+.report_page{
     margin-top:3% ;
     display: flex;
     justify-content: space-evenly;
     width: 90vw;   
 }
-.report-page h2,h3{
+.report_page> h2 >h3{
     font-weight: bold;
     font-size: 2rem;
     font-family: 'Lora', serif;
@@ -18,7 +18,7 @@
     height:70vh;
     width: 50%;
 }
-.report-page button{
+.report_page button{
     padding: 12px 24px;
   font-size: 1.2rem;
   background-color: #FE7B17;
@@ -29,7 +29,7 @@
   transition: background-color 0.3s ease;
 }
 
-.report-page button:hover {
+.report_page button:hover {
     background-color: #0056b3;
 }
 .aright{

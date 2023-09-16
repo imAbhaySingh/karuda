@@ -8,7 +8,7 @@ const abuse = () => {
         );
     };
     return (
-        <div className="report-page">
+        <div className="report_page">
             <div className="aleft">
                 <h2>Report Animal Abuse</h2>
                 <p>
