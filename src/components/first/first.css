@@ -105,7 +105,7 @@ a {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .content_part {
         width: 80vw;
         padding-left: 5%;

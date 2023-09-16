@@ -83,7 +83,7 @@
 }
 
 /* Responsive styles for smaller devices */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   /* Add your responsive styles here */
   .h3 {
     width: 90vw;
